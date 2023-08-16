@@ -1,4 +1,4 @@
-
+'use client'
 export default function HeroSection () {
     return <div className="w-full h-[389px] bg-cover text-black flex flex-col justify-center" style={{ backgroundImage: "url(/slide.jpg)" }}>
         <div className="flex flex-col  ml-20 text-white">
