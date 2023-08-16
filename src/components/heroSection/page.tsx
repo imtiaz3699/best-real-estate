@@ -1,4 +1,7 @@
 'use client'
+
+import Image from "next/image"
+
 export default function HeroSection () {
     return <div className="w-full h-[389px] bg-cover text-black flex flex-col justify-center" style={{ backgroundImage: "url(/slide.jpg)" }}>
         <div className="flex flex-col  ml-20 text-white">
@@ -13,15 +16,16 @@ export default function HeroSection () {
                 </div>
                 <div className="w-[105px] h-full flex flex-row items-center gap-[18px] px-[15px] border-r-2 border-r-gray-500">
                 <h1 className="text-[9px] font-normal leading-[11.65px] ">All Status</h1>                    
-                <img src="/dropDown.png" alt="" />
+                
+                <Image alt = 'drop-down' width = {9} height = {9} src = "/dropDown.png"/>
                 </div>
                 <div className="w-[105px] h-full flex flex-row items-center justify-center gap-[18px] px-[5px] border-r-2 border-r-gray-500">
                 <h1 className="text-[9px] font-normal leading-[11.65px] ">All Contries</h1>                    
-                <img src="/dropDown.png" alt="" />
+                <Image alt = 'drop-down' width = {9} height = {9} src = "/dropDown.png"/>
                 </div>
                 <div className="w-[105px] h-full flex flex-row items-center justify-center gap-[18px] px-[5px] border-r-2 border-r-gray-500">
                 <h1 className="text-[9px] font-normal leading-[11.65px] ">All Contries</h1>                    
-                <img src="/dropDown.png" alt="" />
+                <Image alt = 'drop-down' width = {9} height = {9} src = "/dropDown.png"/>
                 </div>
                 
                 <div className="w-[105px]"></div>
