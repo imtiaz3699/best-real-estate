@@ -53,7 +53,7 @@ const navData = [
         </div>
 
 
-        <div className="flex flex-row items-center gap-[14px]">
+        <div className="flex flex-row items-center gap-[14px] ">
             <div className="flex flex-row items-center gap-[14px] pl-[14px] border-l-2 border-gray-100">
                 <Image src = '/usericon.svg' alt = 'user icon' width= {19} height={19}></Image>
                 <div className="text-[12px] leading-[14.9px] text-red1">Sign in</div>
