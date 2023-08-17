@@ -37,7 +37,7 @@ const navData = [
     return <>
     <div className="w-full py-[29px] px-[54px] flex flex-row items-center justify-center bg-white gap-10">
         <div>
-            <img src="/logo.png" alt="" />
+            <Image alt = "Logo" src = "/logo.png" width = {225} height = {200}/>
         </div>
         <Input
         className="text-red1 border-2 rounded-md border-red1 outline-none px-3 py-1"
