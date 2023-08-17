@@ -30,7 +30,7 @@ export default function WhyChooseUs() {
                 <div className="flex flex-col gap-[40px]">
               {
                     data.map((element,idx)=> {
-                        return <div className="flex flex-row items-center gap-[20px]">
+                        return <div className="flex flex-row items-center gap-[20px]" key = {idx}>
                         <div className="w-[100px] h-[94px] bg-red1 rounded-[5px] flex flex-row items-center justify-center">
                             <Image alt = "" width = {60} height = {60} src = {element.img}/>
                         </div>
