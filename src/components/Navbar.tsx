@@ -37,7 +37,7 @@ const navData = [
     return <>
     <div className="w-full py-[29px] px-[54px] flex flex-row items-center justify-center bg-white gap-10">
         <div>
-            <img src="/logo.png" alt="" />
+            <Image alt = "Logo" src = "/logo.png" width = {225} height = {200}/>
         </div>
         <Input
         className="text-red1 border-2 rounded-md border-red1 outline-none px-3 py-1"
@@ -47,7 +47,7 @@ const navData = [
         <div className="flex flex-row items-center gap-[22px] text-red1 text-[12px] leading-[14.9px]">
             {
                 navData.map((element,idx)=> {
-                    return <div className="cursor-pointer">{element.name}</div>
+                    return <div className="cursor-pointer" key = {idx}>{element.name}</div>
                 })
             }
         </div>
@@ -68,7 +68,7 @@ const navData = [
         <div>
             <Button className="px-[16px] py-[4px] flex flex-row items-center gap-[12px] bg-red1 rounded-[5px]">
               <Image src = "/Joyent.svg" width = {30} height = {30} alt = "Button icon"/> 
-              Add Properties 
+             <div> Add Properties</div> 
             </Button>
         </div>
     </div>
